@@ -1,0 +1,8 @@
+.u-build {
+  display: inline-block;
+  width: 90px;
+  height: 20px;
+  margin-right: .5em;
+  vertical-align: middle;
+  background-image: url("https://api.travis-ci.org/nerds-of-all-trades/nerdsofalltrad.es.svg?branch=master");
+}

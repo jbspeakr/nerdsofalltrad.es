@@ -1,0 +1,22 @@
+{
+  "jscsrc": ".jscsrc",
+  "node_modules": "node_modules",
+  "src": {
+    "config": "src/config",
+    "stylesheets": "src/stylesheets",
+    "images": "src/images",
+    "javascripts": "src/javascripts",
+    "layouts": "src/layouts",
+    "templates": "src/templates",
+    "content": "src/content"
+  },
+  "dist": {
+    "default": "dist",
+    "config": "dist",
+    "assets": "dist/assets",
+    "stylesheets": "dist/assets/stylesheets",
+    "images": "dist/assets/images",
+    "javascripts": "dist/assets/javascripts",
+    "templates": "dist"
+  }
+}

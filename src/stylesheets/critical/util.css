@@ -1,0 +1,32 @@
+.u-3d {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transform: translateZ(0);
+}
+
+.u-reg:after {
+  position: relative;
+  content: '®';
+  top: -1em;
+  font-size: .5em;
+}
+
+.u-external-link {
+  &:before {
+    position: relative;
+    display: inline-block;
+    top: .25em;
+    margin-right: .25em;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: var(--corporate-color-blue);
+    background-image: svg("ei#chevron-right");
+    background-size: 100%;
+    content: ' ';
+  }
+
+  &:hover:before {
+    background-image: svg("ei#external-link");
+  }
+}

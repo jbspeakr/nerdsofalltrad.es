@@ -1,0 +1,22 @@
+{
+  "default": [
+    "app"
+  ],
+  "app": [
+    "clean:before",
+
+    "postcss",
+
+    "eslint",
+    "shell:webpack",
+
+    "makedocs",
+    "processhtml",
+    "htmlmin",
+
+    "copy",
+
+    "clean:after"
+
+  ]
+}
