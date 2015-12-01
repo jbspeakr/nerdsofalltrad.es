@@ -1,7 +1,7 @@
 [![Build Status](https://api.travis-ci.org/nerds-of-all-trades/nerdsofalltrad.es.svg?branch=master)](https://travis-ci.org/nerds-of-all-trades/nerdsofalltrad.es)
 
 # The nerdsofalltrad.es website
-live at http://nerdsofalltrad.es - feel free to use for your own.
+live at http://nerdsofalltrad.es - feel free to use for your own blog-alike website.
 
 ```
 $ npm install
