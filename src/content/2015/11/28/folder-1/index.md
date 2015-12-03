@@ -1,6 +1,6 @@
 ---
 
-title: Example 28
+title: Great Architectures, Stacks & DevOps at Webscale
 name: example-28
 layout: article
 

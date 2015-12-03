@@ -4,6 +4,14 @@
   transform: translateZ(0);
 }
 
+.u-row {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0 1em;
+  max-width: 48em;
+}
+
 .u-reg:after {
   position: relative;
   content: '®';

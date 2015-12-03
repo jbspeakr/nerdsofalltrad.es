@@ -45,7 +45,10 @@ module.exports = function(grunt) {
 
           grunt.file.write(
             paths.dist.default + '/index.html' + ext,
-            Handlebars.compile(html)({pages: pages})
+            Handlebars.compile(html)({
+              pages: pages,
+              title: 'Next-generation frontend engineering'
+            })
           );
         }
       }

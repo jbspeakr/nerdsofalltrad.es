@@ -1,13 +1,7 @@
 .u-corporate-font-header {
-  font-family: Optima, 'Helvetica Neue', sans-serif;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
 }
 
 .u-corporate-font {
   font-family: Georgia, serif;
-}
-
-.u-night {
-  & .u-corporate-font {
-    font-family: 'Courier New', monospace;
-  }
 }

@@ -1,6 +1,8 @@
 .app-footer {
-  display: block;
+  background-color: var(--corporate-color-light-gray);
   padding-top: 2em;
+  padding: 1em 0;
+
 
   & a {
     color: var(--corporate-color-blue);

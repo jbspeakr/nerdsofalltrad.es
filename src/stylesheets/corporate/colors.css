@@ -7,6 +7,8 @@
   --corporate-color-cyan: #0CF;
   --corporate-color-green: #6B4;
   --corporate-color-yellow: #FC0;
+  --corporate-color-light-gray: #eee;
+  --corporate-color-dark-gray: #444;
 }
 
 .u-corporate-color-white { color: #DDD; }

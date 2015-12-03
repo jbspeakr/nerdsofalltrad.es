@@ -1,0 +1,41 @@
+.app-header {
+  background-color: var(--corporate-color-cyan);
+  padding: 1em 0;
+  margin-bottom: 8em;
+  color: #333;
+
+  &-logo {
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: 600;
+    letter-spacing: .02rem;
+
+    &:before {
+      display: inline-block;
+      content: '';
+      width: .8em;
+      height: .8em;
+      margin-right: .3em;
+      background-image: inline('images/mustache.svg');
+      background-size: 100%;
+    }
+  }
+
+  &-title {
+    margin-top: 1.5em;
+    line-height: 1;
+    font-size: 1.5em;
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: .15rem;
+  }
+
+  &-subtitle {
+    margin-top: 0em;
+    font-size: 1.4em;
+    font-family: Georgia;
+    font-weight: 300;
+    letter-spacing: -.02rem;
+  }
+
+}
