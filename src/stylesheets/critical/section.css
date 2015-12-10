@@ -4,7 +4,8 @@
 
   &-title {
     font-family: CorporateHeader, sans-serif;
-    font-size: 2em;
+    font-size: 30px;
+    font-weight: 500;
     margin-top: 0;
     margin-bottom: 1em;
   }
