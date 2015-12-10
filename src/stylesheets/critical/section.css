@@ -1,13 +1,18 @@
-.u-section {
+section {
   display: block;
   margin-bottom: 2em;
 
-  &-title {
-    font-family: CorporateHeader, sans-serif;
-    font-size: 30px;
-    font-weight: 500;
+  & a[rel=author] {
+    color: red;
+  }
+  
+  & h2 {
     margin-top: 0;
     margin-bottom: 1em;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 33px;
   }
 
   & p {

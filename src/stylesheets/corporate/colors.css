@@ -1,11 +1,12 @@
 :root {
+  --corporate-color-black: #141414;
   --corporate-color-white: #DDD;
   --corporate-color-purple: #C00083;
   --corporate-color-red: #F36;
   --corporate-color-orange: #D63;
   --corporate-color-blue: #06F;
   --corporate-color-cyan: #0CF;
-  --corporate-color-green: #6B4;
+  --corporate-color-green: #BE5;
   --corporate-color-yellow: #FC0;
   --corporate-color-light-gray: #eee;
   --corporate-color-dark-gray: #444;
@@ -22,8 +23,3 @@
 
 .u-corporate-text { color: #333; }
 .u-corporate-background { background-color: #FFF; }
-
-.u-night {
-  & .u-corporate-text { color: #DDD; }
-  &.u-corporate-background { background-color: #141414; }
-}
