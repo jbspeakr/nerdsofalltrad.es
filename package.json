@@ -5,7 +5,7 @@
   "main": "Gruntfile.js",
   "dependencies": {},
   "devDependencies": {
-    "autoprefixer": "6.2.2",
+    "autoprefixer": "6.2.3",
     "babel-core": "6.3.26",
     "babel-eslint": "5.0.0-beta4",
     "babel-loader": "6.2.0",
