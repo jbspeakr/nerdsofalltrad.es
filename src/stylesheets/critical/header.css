@@ -1,30 +1,21 @@
 .app-header {
-  background-color: var(--corporate-color-green);
-  padding: .6em 0 3.6em 0;
+  margin-top: 2em;
   margin-bottom: 2em;
 
   &-logo {
-    font-size: 34px;
+    display: inline-block;
+    padding: 1em;
+    background-color: var(--corporate-color-black);
+    color: var(--corporate-color-white);
     line-height: 1em;
-    font-weight: bold;
+    font-size: 1em;
+    font-weight: 400;
   }
 
   &-title {
-    margin-top: 1.8em;
     margin-bottom: .4em;
     line-height: 1.3em;
-    font-size: 26px;
-    font-style: italic;
-    font-weight: 300;
-    letter-spacing: .2px;
-    max-width: 16em;
+    font-size: 1.2em;
+    font-weight: 700;
   }
-
-  &-subtitle {
-    margin-top: 0em;
-    font-size: 16px;
-    font-style: italic;
-    letter-spacing: .3px;
-  }
-
 }

@@ -3,21 +3,50 @@ section {
   margin-bottom: 2em;
 
   & a[rel=author] {
-    color: red;
+    color: var(--corporate-color-red);
   }
-  
+
+  & h1 {
+    margin-bottom: .4em;
+    line-height: 1.3em;
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+
   & h2 {
-    margin-top: 0;
-    margin-bottom: 1em;
-    font-family: Roboto;
-    font-size: 30px;
-    font-weight: 500;
-    line-height: 33px;
+    &:not(:first-child) {
+      margin-top: 2em;
+      padding-top: 1em;
+      border-top: solid var(--corporate-color-light-gray) .2em;
+    }
+    margin-bottom: .4em;
+    line-height: 1.3em;
+    font-size: 1.1em;
+    font-weight: 700;
+  }
+
+  & h3 {
+    &:not(:first-child) {
+      margin-top: 2em;
+    }
+    margin-bottom: .4em;
+    line-height: 1.3em;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: var(--corporate-color-dark-gray);
   }
 
   & p {
     line-height: 1.5;
-    font-size: 1.2em;
+    font-size: 1.1em;
+
+    > code {
+      color: var(--corporate-color-orange);
+    }
+  }
+
+  & code {
+      font-family: Roboto Mono;
   }
 
   & i {
