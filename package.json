@@ -41,7 +41,7 @@
     "postcss-svg": "1.0.4",
     "tape": "4.4.0",
     "time-grunt": "1.2.2",
-    "webpack": "1.12.9",
+    "webpack": "1.12.10",
     "window-mock": "0.0.7"
   },
   "repository": {
