@@ -12,9 +12,6 @@ layout: article
 
 ---
 
-# Javascript loading, execution-order and performance
-
-
 ## Experiment
 The goal is to load three external Javascript-files, each 140k in size,
 each taking several seconds to process using different methods of embedding -

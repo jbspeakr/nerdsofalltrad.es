@@ -1,9 +1,10 @@
 section {
-  display: block;
-  margin-bottom: 2em;
-
   & a[rel=author] {
-    color: var(--corporate-color-red);
+    color: var(--corporate-color-purple);
+  }
+
+  & time {
+    color: var(--corporate-color-orange);
   }
 
   & h1 {

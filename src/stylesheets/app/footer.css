@@ -1,16 +1,17 @@
 .app-footer {
-  background-color: var(--corporate-color-light-gray);
-  padding-top: 2em;
-  padding: 1em 0;
+  margin-top: 3em;
+  
+  & p {
+    font-size: .8em;
+  }
 
-
-  & a {
-    color: var(--corporate-color-blue);
-    text-decoration: none;
-    white-space: nowrap;
-
-    &:hover {
-      text-decoration: underline;
-    }
+  &-build {
+    display: block;
+    width: 90px;
+    height: 20px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-right: .5em;
+    background-image: url("https://api.travis-ci.org/nerds-of-all-trades/nerdsofalltrad.es.svg?branch=master");
   }
 }

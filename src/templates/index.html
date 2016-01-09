@@ -1,10 +1,10 @@
 {{#pages}}
-<section>
-  <h2>{{title}}</h2>
-  <a href="http://johnsplace.com" rel="author">{{author}}</a>
+<section class="u-row">
+  <a href="{{url}}"><h2>{{title}}</h2></a>
+  <a href="https://sebastian-misch.de" rel="author" target="author">{{author}}</a>
+  <time datetime="{{date}}">{{date}}</time>
   <p>
     {{tldr}}
-    <a href="{{url}}">read on</a>
   </p>
 </section>
 {{/pages}}
