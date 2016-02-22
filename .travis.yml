@@ -8,3 +8,5 @@ before_install:
   - sudo update-java-alternatives -s java-8-oracle
 after_success:
   - ./node_modules/.bin/surge --project ./dist --domain nerdsofalltrades.surge.sh
+  on:
+    branch: master
