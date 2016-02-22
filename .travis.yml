@@ -7,6 +7,7 @@ before_install:
   - sudo apt-get install oracle-java8-installer
   - sudo update-java-alternatives -s java-8-oracle
 after_success:
-  - ./node_modules/.bin/surge --project ./dist --domain nerdsofalltrades.surge.sh
-  on:
-    branch: master
+  if ([ "$TRAVIS_BRANCH" == "master" ] ; then
+    ./node_modules/.bin/surge --project ./dist --domain nerdsofalltrades.surge.sh
+  fi
+
