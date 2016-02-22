@@ -39,6 +39,7 @@
     "postcss-import": "8.0.2",
     "postcss-nested": "1.0.0",
     "postcss-svg": "https://github.com/kvz/postcss-svg#9239b6dd4ab0dc3ef37f41c9cbc0e23d25549c7b",
+    "surge": "^0.17.7",
     "tape": "4.4.0",
     "time-grunt": "1.3.0",
     "webpack": "1.12.13",
@@ -52,6 +53,7 @@
     "build": "./node_modules/.bin/webpack --config src/config/webpack.config.js --progress --colors",
     "postinstall": "./node_modules/.bin/grunt",
     "test": "./node_modules/.bin/babel-tape-runner \"src/javascripts/**/*.spec.js\" | faucet",
+    "publish": "./node_modules/.bin/surge dist --domain nerdsofalltrades.surge.sh",
     "start": "./node_modules/.bin/grunt watch"
   },
   "author": "Sebastian Misch <sbstnmsch AT gmail> (https://sebastian-misch.de/)",
