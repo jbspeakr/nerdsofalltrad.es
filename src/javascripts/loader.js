@@ -9,7 +9,7 @@ window.onload = () => {
     (window.document.getElementsByTagName('head')[0]).appendChild(sct);
   });
 
-  ['app.min.js', 'highlight.min.js'].forEach((script) => {
+  ['app.min.js'].forEach((script) => {
     let sct = window.document.createElement('script');
     sct.type = 'text/javascript';
     sct.async = true;

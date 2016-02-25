@@ -1,5 +1,5 @@
 section {
-  
+
   & a[rel=author] {
     color: var(--corporate-color-purple);
   }
@@ -48,7 +48,15 @@ section {
   }
 
   & code {
-      font-family: Roboto Mono;
+    font-family: Roboto Mono;
+  }
+
+  & pre code {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #333;
+    background: #f8f8f8;
   }
 
   & i {
