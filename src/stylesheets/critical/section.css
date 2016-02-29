@@ -1,11 +1,11 @@
 section {
 
   & a[rel=author] {
-    color: var(--corporate-color-purple);
+    color: var(--corporate-color-gray);
   }
 
   & time {
-    color: var(--corporate-color-orange);
+    color: var(--corporate-color-gray);
   }
 
   & h1 {
@@ -56,7 +56,8 @@ section {
     overflow-x: auto;
     padding: 0.5em;
     color: #333;
-    background: #f8f8f8;
+    background-color: #f8f8f8;
+    border-radius: 4px;
   }
 
   & i {
