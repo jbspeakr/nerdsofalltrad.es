@@ -49,6 +49,7 @@ section {
 
   & code {
     font-family: Roboto Mono;
+    font-size: .9em;
   }
 
   & pre code {

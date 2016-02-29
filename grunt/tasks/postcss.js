@@ -8,7 +8,7 @@ var
     }),
     _postcssNestedProcessor = require('postcss-nested')(),
     _postcssSvgProcessor = require('postcss-svg')({
-      ei: { defaults: '[fill]: white' }
+      ei: { defaults: '[fill]: black' }
     }),
     _autoprefixerProcessor = require('autoprefixer')({
       browsers: [

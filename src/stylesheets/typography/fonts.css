@@ -1,9 +1,13 @@
-.u-corporate-font-header {
+.u-corporate-font-logo {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.u-corporate-font-title {
   font-family: 'Roboto Mono', Courier New, courier;
 }
 
 .u-corporate-font {
-  font-family: 'Roboto Mono', Courier New, courier;
+  font-family: 'Open Sans', sans-serif;
 }
 
 @font-face {
@@ -19,5 +23,13 @@
   font-style: normal;
   font-weight: 700;
   src: local('Roboto Mono Bold'), local('RobotoMono-Bold'), url(https://fonts.gstatic.com/s/robotomono/v4/N4duVc9C58uwPiY8_59Fz_79_ZuUxCigM2DespTnFaw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/robotomono/v4/N4duVc9C58uwPiY8_59FzxbnBKKEOwRKgsHDreGcocg.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }

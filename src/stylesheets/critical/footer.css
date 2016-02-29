@@ -1,0 +1,17 @@
+.app-footer {
+  display: block;
+  margin-top: 8em;
+  text-align: center;
+
+  & p {
+    font-size: .8em;
+  }
+
+  & a {
+    color: var(--corporate-color-blue);
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,22 +1,38 @@
 .app-header {
+  display: block;
   margin-top: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 8em;
+  color: var(--corporate-color-dark-gray);
 
   &-logo {
-    display: inline-block;
-    padding: 1em;
-    background-color: var(--corporate-color-black);
-    color: var(--corporate-color-white);
-    line-height: 1em;
-    font-size: 1em;
-    font-weight: 400;
+    display: block;
+    font-size: 1.563em;
+    letter-spacing: 0.188em;
+    text-transform: uppercase;
+    text-align: center;
+
+    & a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    &:before {
+      content: '';
+      display: block;
+      height: 2em;
+      margin-bottom: 1em;
+      background-image: svg("ei#star", "[fill]:#ddd");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
   }
 
   &-title {
-    margin-top: 3em;
-    margin-bottom: .4em;
+    display: block;
+    text-align: center;
     line-height: 1.3em;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 700;
   }
 }

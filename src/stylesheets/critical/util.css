@@ -44,3 +44,10 @@
     background-image: svg("ei#external-link");
   }
 }
+
+.u-slack-channel {
+  &:before {
+    content: '#';
+    color: var(--corporate-color-purple);
+  }
+}
