@@ -16,6 +16,8 @@
 
     "copy",
 
+    "google-site-verification",
+
     "clean:after"
   ]
 }
