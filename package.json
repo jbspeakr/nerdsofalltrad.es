@@ -55,7 +55,7 @@
     "build": "./node_modules/.bin/webpack --config src/config/webpack.config.js --progress --colors",
     "postinstall": "./node_modules/.bin/grunt",
     "test": "./node_modules/.bin/babel-tape-runner \"src/javascripts/**/*.spec.js\" | faucet",
-    "publish": "./node_modules/.bin/surge dist --domain nerdsofalltrades.surge.sh",
+    "publish": "./node_modules/.bin/surge dist --domain nerdsofalltrad.es",
     "start": "./node_modules/.bin/grunt watch"
   },
   "author": "Sebastian Misch <sbstnmsch AT gmail> (https://sebastian-misch.de/)",
