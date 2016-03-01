@@ -8,7 +8,7 @@ before_install:
   - sudo update-java-alternatives -s java-8-oracle
 after_success:
   if [ "$TRAVIS_BRANCH" == "master" ] ; then
-    ./node_modules/.bin/surge --project ./dist --domain nerdsofalltrades.surge.sh ;
+    ./node_modules/.bin/surge --project ./dist --domain nerdsofalltrad.es ;
   else
     echo "Deployment omitted." ;
   fi
