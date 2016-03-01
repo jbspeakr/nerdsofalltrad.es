@@ -12,14 +12,14 @@ layout: article
 
 ---
 
-> ES6 aka ECMAScript2015 is the next generation of Javascript.
-> Node 5 as well as newer versions of browsers like Chrome, Firefox and even Edge
-> support it - or support subsets of ES6. With the help of transpilers like
-> *Babel* you can use it today. 
-> This cheatsheet is a subset of the easiest and most useful features of ES6.
->
-> Why should you use ES6? Because it's easy and make's your everyday coding
-> more fun.
+ES6 aka ECMAScript2015 is the next generation of Javascript.
+Node 5 as well as newer versions of browsers like Chrome, Firefox and even Edge
+support it - or support subsets of ES6. With the help of transpilers like
+*Babel* you can use it today. 
+This cheatsheet is a subset of the easiest and most useful features of ES6.
+
+Why should you use ES6? Because it's easy and make's your everyday coding
+more fun.
 
 ## Arrow functions
 ```javascript
@@ -97,7 +97,7 @@ let s = 'Hello!'.repeat(3);
 // 2
 
 [ 1, 2, 4, 8, 16 ].copyWithin(3, 0)
-// [ 1, 2, 4, 1, 2]
+// [ 1, 2, 4, 1, 2 ]
 ```
 
 ## Promises!
@@ -162,7 +162,7 @@ countParameters(1, 2, 3, 4);
 function firstThree(first, second, third) {
   console.log(first, second, third);
 }
-firstThree(...[1, 2, 3, 4]);
+firstThree(...[ 1, 2, 3, 4 ]);
 // 1 2 3
 ```
 
