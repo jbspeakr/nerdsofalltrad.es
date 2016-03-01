@@ -10,6 +10,7 @@ var
     _postcssSvgProcessor = require('postcss-svg')({
       ei: { defaults: '[fill]: black' }
     }),
+    _postcssSvgoProcessor = require('postcss-svgo')(),
     _autoprefixerProcessor = require('autoprefixer')({
       browsers: [
         'last 3 Android versions',
@@ -27,6 +28,7 @@ var
       _postcssImportProcessor,
       _postcssNestedProcessor,
       _postcssSvgProcessor,
+      _postcssSvgoProcessor,
       _postcssAssetsProcessor,
       _postcssCssNextProcessor,
       _autoprefixerProcessor,
