@@ -56,6 +56,16 @@ module.exports = {
         '<%= paths.src.stylesheets %>/app.css'
     }
   },
+  fonts: {
+    options: {
+      map: false,
+      processors: _processors
+    },
+    files: {
+      '<%= paths.dist.stylesheets %>/fonts.min.css':
+        '<%= paths.src.stylesheets %>/fonts.css'
+    }
+  },
   vendor: {
     options: {
       map: false,
