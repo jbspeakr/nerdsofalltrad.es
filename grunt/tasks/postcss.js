@@ -13,12 +13,7 @@ var
     _postcssSvgoProcessor = require('postcss-svgo')(),
     _autoprefixerProcessor = require('autoprefixer')({
       browsers: [
-        'last 3 Android versions',
-        'last 4 iOS versions',
-        'last 5 Chrome versions',
-        'last 8 ChromeAndroid versions',
-        'last 4 ExplorerMobile versions',
-        'last 5 FirefoxAndroid versions'
+        '> 3%'
       ]
     }),
     _cssNanoProcessor = require('cssnano')(),
