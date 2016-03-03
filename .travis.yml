@@ -11,7 +11,7 @@ after_success:
     if [ "x$DEPLOY_HOST$DEPLOY_PATH$DEPLOY_USER$DEPLOY_PASSWORD" != "x" ] ; then
       npm run deploy ;
     else
-      echo "Deployment missing environment variables $DEPLOY_(HOST,PATH,USERNAME,PASSWORD)."
+      echo "Deployment missing environment variables $DEPLOY_(HOST,PATH,USERNAME,PASSWORD)." ;
     fi
   else
     echo "Deployment omitted." ;
