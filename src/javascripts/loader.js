@@ -1,7 +1,7 @@
 window.onload = () => {
   /* Lazy load app */
 
-  ['fonts.min.css', 'vendor.min.css'].forEach((style) => {
+  ['vendor.min.css'].forEach((style) => {
     let sct = window.document.createElement('link');
     sct.rel = 'stylesheet';
     sct.async = true;
