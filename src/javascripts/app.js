@@ -1,5 +1,5 @@
-import HttpsRedirect from './util/https-redirect';
+// import HttpsRedirect from './util/https-redirect';
 (() => {
   /* Enable features */
-  new HttpsRedirect(window);
+  // new HttpsRedirect(window);
 })();
