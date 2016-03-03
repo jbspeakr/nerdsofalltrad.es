@@ -27,7 +27,7 @@
     "grunt-manifest": "0.4.4",
     "grunt-mustache-html": "^0.1.9",
     "grunt-postcss": "0.7.1",
-    "grunt-processhtml": "0.3.9",
+    "grunt-processhtml": "0.3.10",
     "grunt-shell": "1.1.2",
     "handlebars": "^4.0.5",
     "highlightjs": "^8.7.0",
