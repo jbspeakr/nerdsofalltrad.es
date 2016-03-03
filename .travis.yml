@@ -8,8 +8,11 @@ before_install:
   - sudo update-java-alternatives -s java-8-oracle
 after_success:
   if [ "$TRAVIS_BRANCH" == "master" ] ; then
-    ./node_modules/.bin/surge --project ./dist --domain nerdsofalltrad.es ;
+    if [ "x$DEPLOY_HOST$DEPLOY_PATH$DEPLOY_USER$DEPLOY_PASSWORD" != "x" ] ; then
+      npm run deploy ;
+    else
+      echo "Deployment missing environment variables $DEPLOY_(HOST,PATH,USERNAME,PASSWORD)."
+    fi
   else
     echo "Deployment omitted." ;
   fi
-
