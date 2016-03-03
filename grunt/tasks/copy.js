@@ -17,6 +17,10 @@ module.exports = {
       {
         src: '<%= paths.node_modules %>/highlightjs/highlight.pack.min.js',
         dest: '<%= paths.dist.javascripts %>/highlight.min.js'
+      },
+      {
+        src: '<%= paths.src.config %>/robots.txt',
+        dest: '<%= paths.dist.default %>/robots.txt',
       }
     ]
   }
