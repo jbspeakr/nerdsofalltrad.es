@@ -21,7 +21,7 @@ This cheatsheet is a subset of the easiest and most useful features of ES6.
 Why should you use ES6? Because it's easy and make's your everyday coding
 more fun.
 
-<div class="box external--slides">
+<div class="box box--slides">
   <span>
   See my slide deck on this at <a href="http://slides.com/sbstnmsch/es6-syntactic-sugar-you-should-be-using-today" target="slides">slides.com</a>.
   </span>
