@@ -41,7 +41,8 @@ module.exports = function(grunt) {
           for (var i = 0; i < pages.length; ++i) {
             pages[i].url = pages[i].dest.substring(pages[i].dest.indexOf('/dist/') + 6);
             pages[i].url = pages[i].url.substring(0, pages[i].url.indexOf('/index.html'));
-            pages[i].date = pages[i].url.substring(0, 10);
+            pages[i].date = pages[i].url.substring(0, 10).replace(/\//g, '-');
+            pages[i].displayDate = pages[i].url.substring(0, 10);
           }
 
           grunt.file.write(
