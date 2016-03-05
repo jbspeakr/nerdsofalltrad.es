@@ -1,6 +1,6 @@
 ---
 
-title: Set up HTTP2 with nginx and let's encrypt
+title: Set up HTTP/2 with nginx and let's encrypt
 name: lets-encrypt-to-support-http-2-on-nginx
 author: Sebastian Misch
 tldr:
@@ -13,9 +13,11 @@ layout: article
 HTTP/2 is here. Now let's encrypt and use it with nginx!
 HTTP/2 has arrived in most recent browsers and is therefore ready to use.
 
-<div class="external external--external-link">
+<div class="box box--external-link">
   <span>
-  Check out current HTTP/2 browser support at <a href="http://caniuse.com/#search=http2" target="caniuse">caniuse.com</a>.
+    Check out current HTTP/2 browser support at
+    <a href="http://caniuse.com/#search=http2"
+    target="caniuse">caniuse.com</a>.
   </span>
 </div>
 
@@ -111,3 +113,11 @@ server {
   return 301 https://<your-domain.tld>/$request_uri;
 }
 ```
+
+## Read on
+<div class="box box--internal-link">
+  <span>
+    You've done it! And you are disappointed of your website's performance?
+    Now let's <a href="/2015/12/27/tune-https-and-http-2-for-low-latency/">tune HTTPS and HTTP/2</a> for low latency.
+  </span>
+</div>
