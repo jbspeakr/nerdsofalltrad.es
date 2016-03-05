@@ -7,7 +7,7 @@ tldr:
   ES6 aka ECMAScript2015 is the next generation of Javascript.
   Node 5 as well as newer versions of browsers like Chrome, Firefox and even Edge
   support it - or support subsets of ES6. With the help of transpilers like
-  Babel you can use it today. 
+  Babel you can use it today.
 layout: article
 
 ---
@@ -15,11 +15,17 @@ layout: article
 ES6 aka ECMAScript2015 is the next generation of Javascript.
 Node 5 as well as newer versions of browsers like Chrome, Firefox and even Edge
 support it - or support subsets of ES6. With the help of transpilers like
-*Babel* you can use it today. 
+*Babel* you can use it today.
 This cheatsheet is a subset of the easiest and most useful features of ES6.
 
 Why should you use ES6? Because it's easy and make's your everyday coding
 more fun.
+
+<div class="external external--slides">
+  <span>
+  See my slide deck on this at <a href="http://slides.com/sbstnmsch/es6-syntactic-sugar-you-should-be-using-today" target="slides">slides.com</a>.
+  </span>
+</div>
 
 ## Arrow functions
 ```javascript
@@ -203,4 +209,3 @@ bar.name = 'Felix';
 })()
 // ReferenceError
 ```
-
