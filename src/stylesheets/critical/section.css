@@ -47,6 +47,11 @@ section {
     }
   }
 
+  & ul li {
+    line-height: 1.5;
+    font-size: 1.1em;
+  }
+
   & code {
     font-family: Roboto Mono;
     font-size: .9em;
@@ -78,7 +83,16 @@ section {
     }
   }
 
-  & .external {
+  & img {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    border: solid var(--corporate-color-cyan) .0625em;
+    border-radius: .25em;
+  }
+
+  & .box {
     display: block;
     box-sizing: border-box;
     padding-left: 5em;
@@ -91,6 +105,9 @@ section {
     background-position: 1em center;
     background-size: 3.8em auto;
 
+    &--internal-link {
+      background-image: svg("ei#link", "[fill]:#ddd");
+    }
     &--external-link {
       background-image: svg("ei#external-link", "[fill]:#ddd");
     }

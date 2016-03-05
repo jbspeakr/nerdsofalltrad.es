@@ -13,6 +13,12 @@ module.exports = {
         dest: '<%= paths.dist.images %>',
         expand: true
       },
+      {
+        cwd: '<%= paths.src.content %>',
+        src: '**/*.png',
+        dest: 'dist',
+        expand: true
+      },
       /* highlightjs */
       {
         src: '<%= paths.node_modules %>/highlightjs/highlight.pack.min.js',
