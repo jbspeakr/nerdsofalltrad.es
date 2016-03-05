@@ -27,6 +27,7 @@
     "grunt-makedocs": "git+https://git@github.com/sbstnmsch/grunt-makedocs.git#feature-highlightjs",
     "grunt-manifest": "0.4.4",
     "grunt-mustache-html": "^0.1.9",
+    "grunt-newer": "^1.1.2",
     "grunt-postcss": "0.7.1",
     "grunt-processhtml": "0.3.10",
     "grunt-shell": "1.1.2",

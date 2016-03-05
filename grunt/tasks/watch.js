@@ -7,7 +7,8 @@ module.exports = {
       '<%= paths.src.stylesheets %>/**/*.css',
       '<%= paths.src.layouts %>/**/*.mustache',
       '<%= paths.src.templates %>/**/*.html',
-      '<%= paths.src.content %>/**/*.md'
+      '<%= paths.src.content %>/**/*.md',
+      '<%= paths.src.content %>/**/*.png'
     ],
     tasks: ['app']
   }

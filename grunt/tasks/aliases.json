@@ -1,10 +1,9 @@
 {
   "default": [
+    "clean:before",
     "app"
   ],
   "app": [
-    "clean:before",
-
     "postcss",
 
     "eslint",
@@ -16,7 +15,7 @@
     "htmllint",
 
     "copy",
-    "imagemin",
+    "newer:imagemin:images",
 
     "google-site-verification",
 
