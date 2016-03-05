@@ -11,9 +11,13 @@ layout: article
 ---
 
 HTTP/2 is here. Now let's encrypt and use it with nginx!
-HTTP/2 has arrived in most recent browsers and is therefore ready to use
-(http://caniuse.com/#search=http2).
+HTTP/2 has arrived in most recent browsers and is therefore ready to use.
 
+<div class="external external--external-link">
+  <span>
+  Check out current HTTP/2 browser support at <a href="http://caniuse.com/#search=http2" target="caniuse">caniuse.com</a>.
+  </span>
+</div>
 
 ## Generate lets-encrypt certificates
 Clone [letsencrypt from github](https://github.com/letsencrypt/letsencrypt):
