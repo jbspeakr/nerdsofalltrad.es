@@ -39,6 +39,7 @@ get your name, website and avatar image.
 
 ## Development
 ```
+$ nvm use # Or just use Node 5
 $ npm i
 $ nginxere # available at https://github.com/sbstnmsch/nginxere
            # or just serve ./dist with your favorite webserver
