@@ -114,5 +114,8 @@ section {
     &--slides {
       background-image: svg("ei#image", "[fill]:#ddd");
     }
+    &--github {
+      background-image: svg("ei#sc-github", "[fill]:#ddd");
+    }
   }
 }

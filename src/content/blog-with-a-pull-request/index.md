@@ -1,12 +1,31 @@
-[![Build Status](https://api.travis-ci.org/nerds-of-all-trades/nerdsofalltrad.es.svg?branch=master)](https://travis-ci.org/nerds-of-all-trades/nerdsofalltrad.es)
+---
 
-# The https://nerdsofalltrad.es blog
+title: Blog with a Pull Request
+name: blog-with-a-pull-request
+author: sebastianmisch
+tldr:
+  The nerdsofalltrad.es website is a blog about next-generation frontend
+  engineering. If you have an article to contribute just pull-request.
+no-index: true
+layout: article
+
+---
+
 The nerdsofalltrad.es website is a blog about next-generation frontend
 engineering. If you have an article to contribute just pull-request.
 
+<div class="box box--github">
+  <span>
+    Fork
+    <a href="https://github.com/nerds-of-all-trades/nerdsofalltrad.es"
+      target="github">github.com/nerds-of-all-trades/nerdsofalltrad.es</a>
+    to add your own article.
+  </span>
+</div>
+
 ## How to blog at nerdsofalltrad.es
 The nerdsofalltrad.es blog is an Open Source repository living at github.
-To add an article just fork it. After that:
+Open the nerdsofalltrad.es-repository above and fork it. After that:
 
 ```bash
 $ git clone https://github.com/<your-github-username>/nerdsofalltrad.es.git

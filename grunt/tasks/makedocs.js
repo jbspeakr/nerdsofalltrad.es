@@ -52,10 +52,10 @@ module.exports = function(grunt) {
                 grunt.file.write(
                   paths.dist.default + '/index.html' + ext,
                   Handlebars.compile(html)({
-                    pages: pages.reverse(),
+                    pages: pages.filter((page) => { return !page['no-index']; }).reverse(),
                     author: {
-                      name : 'Post with a Pull Request',
-                      url: 'https://github.com/nerds-of-all-trades/nerdsofalltrad.es'
+                      name : 'Blog with a Pull Request',
+                      url: '/blog-with-a-pull-request'
                     },
                     title: 'Next-generation frontend engineering'
                   })
