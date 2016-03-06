@@ -2,7 +2,7 @@
 
 title: Set up HTTP/2 with nginx and let's encrypt
 name: lets-encrypt-to-support-http-2-on-nginx
-author: Sebastian Misch
+author: sebastianmisch
 tldr:
   Everyone talks about HTTP/2. Now it's time to implement it
   using nginx and lets-encrypt certificates.

@@ -1,7 +1,7 @@
 module.exports = {
   deploy: {
     files: {
-      "./": ["dist/.*", "dist/**"]
+      './': ['dist/.*', 'dist/**']
     },
     options: {
       host: process.env.DEPLOY_HOST,

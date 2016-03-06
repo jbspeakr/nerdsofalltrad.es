@@ -1,9 +1,9 @@
-/* globals module */
 module.exports = {
   options: {
-    configFile: '<%= paths.src.config %>/eslint.json'
+    configFile: '.eslintrc'
   },
   target: [
-    '<%= paths.src.javascripts %>**/*.js'
+    '<%= paths.src.javascripts %>**/*.js',
+    'grunt/**/*.js'
   ]
 };

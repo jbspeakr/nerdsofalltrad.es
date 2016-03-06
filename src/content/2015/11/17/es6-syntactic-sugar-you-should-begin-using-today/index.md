@@ -2,7 +2,7 @@
 
 title: ES6 syntactic sugar you should begin using today
 name: es6-syntactic-sugar-you-should-begin-using-today
-author: Sebastian Misch
+author: sebastianmisch
 tldr:
   ES6 aka ECMAScript2015 is the next generation of Javascript.
   Node 5 as well as newer versions of browsers like Chrome, Firefox and even Edge

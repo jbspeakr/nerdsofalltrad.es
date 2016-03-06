@@ -1,40 +1,40 @@
 var
-    _postcssCssNextProcessor = require('postcss-cssnext')(),
-    _postcssCustomPropertiesProcessor = require('postcss-custom-properties')(),
-    _postcssCustomMediaProcessor = require('postcss-custom-media')(),
-    _postcssImportProcessor = require('postcss-import')(),
-    _postcssAssetsProcessor = require('postcss-assets')({
+    postcssCssNextProcessor = require('postcss-cssnext')(),
+    postcssCustomPropertiesProcessor = require('postcss-custom-properties')(),
+    postcssCustomMediaProcessor = require('postcss-custom-media')(),
+    postcssImportProcessor = require('postcss-import')(),
+    postcssAssetsProcessor = require('postcss-assets')({
       loadPaths: ['src/']
     }),
-    _postcssNestedProcessor = require('postcss-nested')(),
-    _postcssSvgProcessor = require('postcss-svg')({
+    postcssNestedProcessor = require('postcss-nested')(),
+    postcssSvgProcessor = require('postcss-svg')({
       ei: { defaults: '[fill]: black' }
     }),
-    _postcssSvgoProcessor = require('postcss-svgo')(),
-    _autoprefixerProcessor = require('autoprefixer')({
+    postcssSvgoProcessor = require('postcss-svgo')(),
+    autoprefixerProcessor = require('autoprefixer')({
       browsers: [
         '> 3%'
       ]
     }),
-    _cssNanoProcessor = require('cssnano')(),
-    _processors = [
-      _postcssCustomPropertiesProcessor,
-      _postcssCustomMediaProcessor,
-      _postcssImportProcessor,
-      _postcssNestedProcessor,
-      _postcssSvgProcessor,
-      _postcssSvgoProcessor,
-      _postcssAssetsProcessor,
-      _postcssCssNextProcessor,
-      _autoprefixerProcessor,
-      _cssNanoProcessor
+    cssNanoProcessor = require('cssnano')(),
+    processors = [
+      postcssCustomPropertiesProcessor,
+      postcssCustomMediaProcessor,
+      postcssImportProcessor,
+      postcssNestedProcessor,
+      postcssSvgProcessor,
+      postcssSvgoProcessor,
+      postcssAssetsProcessor,
+      postcssCssNextProcessor,
+      autoprefixerProcessor,
+      cssNanoProcessor
     ];
 
 module.exports = {
   critical: {
     options: {
       map: false,
-      processors: _processors
+      processors: processors
     },
     files: {
       '<%= paths.dist.stylesheets %>/critical.min.css':
@@ -44,7 +44,7 @@ module.exports = {
   app: {
     options: {
       map: false,
-      processors: _processors
+      processors: processors
     },
     files: {
       '<%= paths.dist.stylesheets %>/app.min.css':
@@ -54,7 +54,7 @@ module.exports = {
   fonts: {
     options: {
       map: false,
-      processors: _processors
+      processors: processors
     },
     files: {
       '<%= paths.dist.stylesheets %>/fonts.min.css':
@@ -64,7 +64,7 @@ module.exports = {
   vendor: {
     options: {
       map: false,
-      processors: _processors
+      processors: processors
     },
     files: {
       '<%= paths.dist.stylesheets %>/vendor.min.css': [

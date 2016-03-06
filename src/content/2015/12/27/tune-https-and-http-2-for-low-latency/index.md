@@ -2,7 +2,7 @@
 
 title: Tune HTTPS and HTTP/2 for low latency
 name: tune-https-and-http-2-for-low-latency
-author: Sebastian Misch
+author: sebastianmisch
 tldr:
   If you just migrated to HTTPS or even HTTP/2 you may be disappointed
   of your website's performance. Let's tune it to be blazing fast!

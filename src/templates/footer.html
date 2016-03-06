@@ -1,7 +1,12 @@
 
       <footer class="app-footer u-row u-corporate-font">
         <p>
-          {{author}}
+          <a href="{{author.url}}"
+            class="u-user-link"
+            title="Profile of {{author.name}}"
+            target="authorUrl">{{author.name}}</a>
+          &mdash;
+          Slack with us at
           <a href="https://nerdsofalltrades.slack.com"
             class="u-slack-channel"
             title="Join our Slack-Channel"

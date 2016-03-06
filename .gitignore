@@ -4,3 +4,4 @@ node_modules
 .tmp
 .grunt
 npm-debug.log
+.authors.json
