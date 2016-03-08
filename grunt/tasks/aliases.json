@@ -17,6 +17,7 @@
     "copy",
     "newer:imagemin:images",
 
+    "sitemap",
     "google-site-verification",
 
     "clean:after"

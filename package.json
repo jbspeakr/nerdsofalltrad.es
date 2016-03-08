@@ -2,6 +2,7 @@
   "name": "nerdsofalltrad.es",
   "version": "0.0.3",
   "description": "nerdsofalltrad.es website",
+  "homepage": "https://nerdsofalltrad.es",
   "main": "Gruntfile.js",
   "dependencies": {},
   "devDependencies": {
@@ -32,6 +33,7 @@
     "grunt-postcss": "0.7.1",
     "grunt-processhtml": "0.3.10",
     "grunt-shell": "1.1.2",
+    "grunt-sitemap": "^1.2.1",
     "grunt-ssh": "^0.12.9",
     "handlebars": "^4.0.5",
     "highlightjs": "^8.7.0",
