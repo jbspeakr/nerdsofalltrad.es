@@ -54,10 +54,12 @@ module.exports = function(grunt) {
                   Handlebars.compile(html)({
                     pages: pages.filter((page) => { return !page['no-index']; }).reverse(),
                     author: {
-                      name : 'Blog with a Pull Request',
+                      name: 'Blog with a Pull Request',
                       url: '/blog-with-a-pull-request'
                     },
-                    title: 'Next-generation frontend engineering'
+                    title: 'Next-generation frontend engineering',
+                    tldr: 'Open-Source blog about next-generation frontend engineering',
+                    tags: 'Javascript, ES6, ECMAScript, Nginx, Continuous, Integration, Delivery'
                   })
                 );
                 done(pages);

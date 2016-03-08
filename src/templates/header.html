@@ -6,6 +6,10 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,user-scalable=no">
+    {{#if tags}}<meta name="keywords" content="{{tags}}">{{/if}}
+    {{#if tldr}}<meta name="description" content="{{tldr}}">{{/if}}
+    {{#if author.handle}}<meta name="author" content="{{author.name}}">{{/if}}
+    <meta name="robots" content="index,follow">
     <!-- build:template
     <link rel="icon" href="<%= cdn %>/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="<%= cdn %>/favicon.ico" type="image/x-icon" />
